@@ -28,7 +28,7 @@ const appRoutes: Routes =[{path: 'products' ,component:ProductListComponent};
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [ProductService],
